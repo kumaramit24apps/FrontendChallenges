@@ -1,8 +1,0 @@
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.configPath": ".prettierrc",
-  "prettier.requireConfig": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.stickyScroll.scrollWithEditor": false,
-  "editor.formatOnSave": true
-}
