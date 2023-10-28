@@ -1,7 +1,7 @@
-import './style.css';
+import './src/style.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Template from './components/Template';
+import Template from './src/components/Template';
 
 const AppLayout = () => <Template />;
 
