@@ -7,5 +7,4 @@ const AppLayout = () => <Template />;
 
 const app = document.getElementById('app');
 const appRoot = ReactDOM.createRoot(app);
-
 appRoot.render(<AppLayout />);

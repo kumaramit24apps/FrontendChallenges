@@ -1,8 +1,12 @@
 import React from 'react';
-import { Profile } from './Profile';
+import ProfileCard from './Cards/ProfileCard';
+import { people } from '../config';
 
 const Tempalte = () => {
-  return <Profile />;
+  return (
+    <>
+      <ProfileCard key={people[0].id} {...people[0]} />;
+    </>
+  );
 };
-
 export default Tempalte;
