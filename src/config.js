@@ -1,3 +1,8 @@
+import IconLinkedIn from '/src/assets/icons/linkedin.svg';
+import IconTwitter from '/src/assets/icons/twitter.svg';
+import IconBehance from '/src/assets/icons/behance.svg';
+import IconDribbble from '/src/assets/icons/dribbble.svg';
+
 export const people = [
   {
     id: 1,
@@ -21,22 +26,22 @@ export const people = [
       {
         platform: 'linkedin',
         profileurl: '#',
-        icon: '../../src/assets/icons/linkedin.svg',
+        icon: IconLinkedIn,
       },
       {
         platform: 'twitter',
         profileurl: '#',
-        icon: '../../src/assets/icons/twitter.svg',
+        icon: IconTwitter,
       },
       {
         platform: 'behance',
         profileurl: '#',
-        icon: '../../src/assets/icons/behance.svg',
+        icon: IconBehance,
       },
       {
         platform: 'dribbble',
         profileurl: '#',
-        icon: '../../src/assets/icons/dribbble.svg',
+        icon: IconDribbble,
       },
     ],
   },

@@ -14,13 +14,17 @@ const ProfileCard = ({
 }) => {
   const socialmedia = [...sociallinks];
 
+  // socialmedia.map((sm) => {
+  //   console.log(sm.icon);
+  // });
+
   return (
     <>
-      <section className="bg-card-background xs:m-0 m-16 w-full min-w-[300px] rounded-lg border border-slate-200 bg-white bg-cover  bg-right-top bg-no-repeat p-4 shadow-md sm:w-[460px] sm:p-8 ">
+      <section className="xs:m-0 m-16 w-full min-w-[300px] rounded-lg border border-slate-200 bg-white bg-card-background bg-cover  bg-right-top bg-no-repeat p-4 shadow-md sm:w-[460px] sm:p-8 ">
         {/* Profile */}
         <figure className=" mr-4 flex flex-col items-center">
           <img
-            className="image-responsive h-16 w-16 rounded-full object-cover object-top sm:h-24 sm:w-24"
+            className="image-responsive h-16 w-16  rounded-full border-[6px] border-blue-50 object-cover object-top  sm:h-32 sm:w-32"
             src={photo}
             alt={photo}
           />
@@ -131,6 +135,7 @@ const ProfileCard = ({
                   <a className="" href={sm.profileurl}>
                     <img src={sm.icon} alt={sm.platform} />
                   </a>
+                  {console.log(sm.icon)}
                 </li>
               );
             })}
