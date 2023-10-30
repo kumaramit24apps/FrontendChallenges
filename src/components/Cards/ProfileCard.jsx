@@ -20,16 +20,16 @@ const ProfileCard = ({
 
   return (
     <>
-      <section className="xs:m-0 m-16 w-full min-w-[300px] rounded-lg border border-slate-200 bg-white bg-card-background bg-cover  bg-right-top bg-no-repeat p-4 shadow-md sm:w-[460px] sm:p-8 ">
+      <section className="m-16 w-full min-w-[300px] rounded-lg border border-slate-200 bg-white bg-card-background bg-cover  bg-right-top bg-no-repeat p-8 shadow-md sm:w-[460px] ">
         {/* Profile */}
         <figure className=" mr-4 flex flex-col items-center">
           <img
-            className="image-responsive h-16 w-16  rounded-full border-[6px] border-blue-50 object-cover object-top  sm:h-32 sm:w-32"
+            className="image-responsive h-24 w-24  rounded-full border-4 border-blue-50 object-cover object-top sm:h-32  sm:w-32 sm:border-[6px]"
             src={photo}
             alt={photo}
           />
           <figcaption className="mb-4 ml-4">
-            <p className="mb-2 mt-4 text-3xl font-bold leading-6 text-slate-900">
+            <p className="mb-2 mt-4 text-2xl font-bold leading-6 text-slate-900 sm:text-3xl">
               {name}
             </p>
             <p className="font-regular text-center text-base leading-6 text-slate-500 ">
